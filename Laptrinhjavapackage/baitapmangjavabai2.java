@@ -1,8 +1,9 @@
+package Laptrinhjavapackage;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class QuanLySoNguyen {
+public class baitapmangjavabai2 {
     public static void main(String[] args) {
         ArrayList<Integer> danhSach = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
@@ -35,6 +36,7 @@ public class QuanLySoNguyen {
                     System.out.print("Nhập vị trí cần sửa (0 đến " + (danhSach.size() - 1) + "): ");
                     int indexSua = scanner.nextInt();
                     if (indexSua >= 0 && indexSua < danhSach.size()) {
+                    	
                         System.out.print("Nhập giá trị mới: ");
                         int giaTriMoi = scanner.nextInt();
                         danhSach.set(indexSua, giaTriMoi);
