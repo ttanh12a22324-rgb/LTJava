@@ -1,7 +1,8 @@
+package Laptrinhjavapackage;
 import java.util.Scanner;
 import java.util.Random;
 
-public class GameDoanSo {
+public class Baitapgamedoanso {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String tiepTuc;
