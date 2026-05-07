@@ -1,3 +1,4 @@
+package Laptrinhjavapackage;
 import java.util.Scanner;
 
 class NhanVien {
