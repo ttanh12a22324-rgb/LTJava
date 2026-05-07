@@ -60,7 +60,7 @@ public class BaitapsudungArrayList {
     static void timSinhVien() {
         System.out.print("Nhap chu can tim (mac dinh 'An'): ");
         String chu = sc.nextLine();
-        if (chu.isEmpty()) chu = "Kiet";
+        if (chu.isEmpty()) chu = "An";
         System.out.println("--- Ket qua tim kiem '" + chu + "' ---");
         boolean timThay = false;
         for (String sv : danhSach) {
