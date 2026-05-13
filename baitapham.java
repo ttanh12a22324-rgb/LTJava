@@ -26,7 +26,7 @@ class NhanVien {
         return ho + " " + ten;
     }
 }
-public class Main {
+public class baitapham {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         NhanVien[] nv = new NhanVien[2];
