@@ -26,5 +26,6 @@ public class tinhS {
         int n = sc.nextInt();
         System.out.printf("S(%.2f, %d) = %.6f%n", x, n, S(x, n));
         System.out.printf("sin(%.2f)  = %.6f%n", x, Math.sin(x));
+        sc.close();
     }
 }

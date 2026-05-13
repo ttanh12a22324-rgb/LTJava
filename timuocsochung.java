@@ -18,5 +18,6 @@ public class timuocsochung {
         System.out.print("Nhập b: ");
         int b = sc.nextInt();
         System.out.println("GCD(" + a + ", " + b + ") = " + gcd(a, b));
+        sc.close();
     }
 }

@@ -19,5 +19,6 @@ public class kiemtrasohoanthien {
             System.out.println(n + " là số hoàn thiện");
         else
             System.out.println(n + " không phải số hoàn thiện");
+        sc.close();
     }
 }

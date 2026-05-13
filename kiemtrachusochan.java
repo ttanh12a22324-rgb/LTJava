@@ -18,6 +18,7 @@ public class kiemtrachusochan {
             System.out.println(n + " có toàn chữ số chẵn");
         else
             System.out.println(n + " không có toàn chữ số chẵn");
+        sc.close();
     }
 }
 

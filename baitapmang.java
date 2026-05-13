@@ -41,7 +41,9 @@ public class baitapmang {
         System.out.print("Mảng sau khi sắp xếp giảm dần: ");
         sapXepGiam(arr);
         xuatMang(arr);
+        sc.close();
     }
+    
 
     public static void xuatMang(int[] a) {
         for (int x : a) System.out.print(x + " ");
