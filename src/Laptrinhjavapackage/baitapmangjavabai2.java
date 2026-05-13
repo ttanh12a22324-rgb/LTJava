@@ -36,6 +36,7 @@ public class baitapmangjavabai2 {
                     System.out.print("Nhập vị trí cần sửa (0 đến " + (danhSach.size() - 1) + "): ");
                     int indexSua = scanner.nextInt();
                     if (indexSua >= 0 && indexSua < danhSach.size()) {
+                    	
                         System.out.print("Nhập giá trị mới: ");
                         int giaTriMoi = scanner.nextInt();
                         danhSach.set(indexSua, giaTriMoi);
